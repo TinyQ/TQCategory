@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:TQCategory"
+      name = "TQCategory">
+      <FileRef
+         location = "group:IOBluetoothSDPUUID+TQStringInit.h">
+      </FileRef>
+      <FileRef
+         location = "group:IOBluetoothSDPUUID+TQStringInit.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:TQCategoryDemo_OSX/TQCategoryDemo_OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TQCategoryDemo_iOS/TQCategoryDemo_iOS.xcodeproj">
+   </FileRef>
+</Workspace>

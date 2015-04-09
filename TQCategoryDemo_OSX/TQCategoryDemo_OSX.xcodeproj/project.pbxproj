@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E02A55D01AD6702300E538EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55CF1AD6702300E538EF /* AppDelegate.m */; };
+		E02A55D21AD6702300E538EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55D11AD6702300E538EF /* main.m */; };
+		E02A55D41AD6702300E538EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02A55D31AD6702300E538EF /* Images.xcassets */; };
+		E02A55D71AD6702300E538EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02A55D51AD6702300E538EF /* MainMenu.xib */; };
+		E02A55E31AD6702300E538EF /* TQCategoryDemo_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55E21AD6702300E538EF /* TQCategoryDemo_OSXTests.m */; };
+		E02A55F51AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */; };
+		E02A55F61AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02A55DD1AD6702300E538EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02A55C11AD6702300E538EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02A55C81AD6702300E538EF;
+			remoteInfo = TQCategoryDemo_OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E02A55C91AD6702300E538EF /* TQCategoryDemo_OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQCategoryDemo_OSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02A55CD1AD6702300E538EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02A55CE1AD6702300E538EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E02A55CF1AD6702300E538EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E02A55D11AD6702300E538EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E02A55D31AD6702300E538EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E02A55D61AD6702300E538EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E02A55DC1AD6702300E538EF /* TQCategoryDemo_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQCategoryDemo_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02A55E11AD6702300E538EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02A55E21AD6702300E538EF /* TQCategoryDemo_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQCategoryDemo_OSXTests.m; sourceTree = "<group>"; };
+		E02A55F21AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOBluetoothSDPUUID+TQStringInit.h"; sourceTree = "<group>"; };
+		E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IOBluetoothSDPUUID+TQStringInit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02A55C61AD6702300E538EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02A55D91AD6702300E538EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02A55C01AD6702300E538EF = {
+			isa = PBXGroup;
+			children = (
+				E02A55F41AD673DE00E538EF /* TQCategory */,
+				E02A55CB1AD6702300E538EF /* TQCategoryDemo_OSX */,
+				E02A55DF1AD6702300E538EF /* TQCategoryDemo_OSXTests */,
+				E02A55CA1AD6702300E538EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E02A55CA1AD6702300E538EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55C91AD6702300E538EF /* TQCategoryDemo_OSX.app */,
+				E02A55DC1AD6702300E538EF /* TQCategoryDemo_OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02A55CB1AD6702300E538EF /* TQCategoryDemo_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55CE1AD6702300E538EF /* AppDelegate.h */,
+				E02A55CF1AD6702300E538EF /* AppDelegate.m */,
+				E02A55D31AD6702300E538EF /* Images.xcassets */,
+				E02A55D51AD6702300E538EF /* MainMenu.xib */,
+				E02A55CC1AD6702300E538EF /* Supporting Files */,
+			);
+			path = TQCategoryDemo_OSX;
+			sourceTree = "<group>";
+		};
+		E02A55CC1AD6702300E538EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55CD1AD6702300E538EF /* Info.plist */,
+				E02A55D11AD6702300E538EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E02A55DF1AD6702300E538EF /* TQCategoryDemo_OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55E21AD6702300E538EF /* TQCategoryDemo_OSXTests.m */,
+				E02A55E01AD6702300E538EF /* Supporting Files */,
+			);
+			path = TQCategoryDemo_OSXTests;
+			sourceTree = "<group>";
+		};
+		E02A55E01AD6702300E538EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55E11AD6702300E538EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E02A55F41AD673DE00E538EF /* TQCategory */ = {
+			isa = PBXGroup;
+			children = (
+				E02A55F21AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.h */,
+				E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */,
+			);
+			name = TQCategory;
+			path = ../TQCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02A55C81AD6702300E538EF /* TQCategoryDemo_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02A55E61AD6702300E538EF /* Build configuration list for PBXNativeTarget "TQCategoryDemo_OSX" */;
+			buildPhases = (
+				E02A55C51AD6702300E538EF /* Sources */,
+				E02A55C61AD6702300E538EF /* Frameworks */,
+				E02A55C71AD6702300E538EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQCategoryDemo_OSX;
+			productName = TQCategoryDemo_OSX;
+			productReference = E02A55C91AD6702300E538EF /* TQCategoryDemo_OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E02A55DB1AD6702300E538EF /* TQCategoryDemo_OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02A55E91AD6702300E538EF /* Build configuration list for PBXNativeTarget "TQCategoryDemo_OSXTests" */;
+			buildPhases = (
+				E02A55D81AD6702300E538EF /* Sources */,
+				E02A55D91AD6702300E538EF /* Frameworks */,
+				E02A55DA1AD6702300E538EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02A55DE1AD6702300E538EF /* PBXTargetDependency */,
+			);
+			name = TQCategoryDemo_OSXTests;
+			productName = TQCategoryDemo_OSXTests;
+			productReference = E02A55DC1AD6702300E538EF /* TQCategoryDemo_OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02A55C11AD6702300E538EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = qfu;
+				TargetAttributes = {
+					E02A55C81AD6702300E538EF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E02A55DB1AD6702300E538EF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E02A55C81AD6702300E538EF;
+					};
+				};
+			};
+			buildConfigurationList = E02A55C41AD6702300E538EF /* Build configuration list for PBXProject "TQCategoryDemo_OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02A55C01AD6702300E538EF;
+			productRefGroup = E02A55CA1AD6702300E538EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02A55C81AD6702300E538EF /* TQCategoryDemo_OSX */,
+				E02A55DB1AD6702300E538EF /* TQCategoryDemo_OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02A55C71AD6702300E538EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02A55D41AD6702300E538EF /* Images.xcassets in Resources */,
+				E02A55D71AD6702300E538EF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02A55DA1AD6702300E538EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02A55C51AD6702300E538EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02A55F51AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */,
+				E02A55D21AD6702300E538EF /* main.m in Sources */,
+				E02A55D01AD6702300E538EF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02A55D81AD6702300E538EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02A55E31AD6702300E538EF /* TQCategoryDemo_OSXTests.m in Sources */,
+				E02A55F61AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E02A55DE1AD6702300E538EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02A55C81AD6702300E538EF /* TQCategoryDemo_OSX */;
+			targetProxy = E02A55DD1AD6702300E538EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E02A55D51AD6702300E538EF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02A55D61AD6702300E538EF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02A55E41AD6702300E538EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E02A55E51AD6702300E538EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E02A55E71AD6702300E538EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TQCategoryDemo_OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E02A55E81AD6702300E538EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TQCategoryDemo_OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E02A55EA1AD6702300E538EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TQCategoryDemo_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQCategoryDemo_OSX.app/Contents/MacOS/TQCategoryDemo_OSX";
+			};
+			name = Debug;
+		};
+		E02A55EB1AD6702300E538EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TQCategoryDemo_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQCategoryDemo_OSX.app/Contents/MacOS/TQCategoryDemo_OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02A55C41AD6702300E538EF /* Build configuration list for PBXProject "TQCategoryDemo_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02A55E41AD6702300E538EF /* Debug */,
+				E02A55E51AD6702300E538EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02A55E61AD6702300E538EF /* Build configuration list for PBXNativeTarget "TQCategoryDemo_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02A55E71AD6702300E538EF /* Debug */,
+				E02A55E81AD6702300E538EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E02A55E91AD6702300E538EF /* Build configuration list for PBXNativeTarget "TQCategoryDemo_OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02A55EA1AD6702300E538EF /* Debug */,
+				E02A55EB1AD6702300E538EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02A55C11AD6702300E538EF /* Project object */;
+}
