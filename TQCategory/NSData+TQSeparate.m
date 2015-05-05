@@ -10,7 +10,7 @@
 
 @implementation NSData (TQSeparate)
 
-- (void)separateWithUnitLength:(NSInteger)unitLength chunkBlock:(void (^)(NSData *chunk))chunkBlock;
+- (void)separateWithUnitLength:(NSInteger)unitLength chunkBlock:(void (^)(NSData *chunk,int total,int index))chunkBlock;
 {
     NSInteger totalLength = self.length;
     NSInteger totalPiece  = 0;
@@ -57,7 +57,7 @@
         NSData *pieceData = [self subdataWithRange:range];
         
         if (chunkBlock) {
-            chunkBlock(pieceData);
+            chunkBlock(pieceData,(int)totalPiece,i);
         }
     }
 }
