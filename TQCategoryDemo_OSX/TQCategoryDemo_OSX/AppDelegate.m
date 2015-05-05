@@ -23,6 +23,8 @@
     IOBluetoothSDPUUID *sdpUUID = [IOBluetoothSDPUUID uuidWithString:@"58724AF1-54FA-9D9E-E9F0-5FE143DBD517"];
     
     NSLog(@"IOBluetoothSDPUUID %@",sdpUUID);
+    
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

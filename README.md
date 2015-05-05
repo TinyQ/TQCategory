@@ -9,3 +9,10 @@ Some objective-c category for iOS &amp; OSX
 
 	NSUUID   	to 	IOBluetoothSDPUUID
 
+**NSData+TQSeparate**
+
+根据传入大小分割NSData，通过BLock返回每次分割的Data。
+
+    [data separateWithUnitLength:100 chunkBlock:^(NSData *chunk) {
+    
+    }];
