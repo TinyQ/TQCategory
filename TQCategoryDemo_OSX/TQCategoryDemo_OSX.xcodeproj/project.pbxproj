@@ -12,8 +12,6 @@
 		E02A55D41AD6702300E538EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02A55D31AD6702300E538EF /* Images.xcassets */; };
 		E02A55D71AD6702300E538EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02A55D51AD6702300E538EF /* MainMenu.xib */; };
 		E02A55E31AD6702300E538EF /* TQCategoryDemo_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55E21AD6702300E538EF /* TQCategoryDemo_OSXTests.m */; };
-		E02A55F51AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */; };
-		E02A55F61AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */ = {isa = PBXBuildFile; fileRef = E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +35,6 @@
 		E02A55DC1AD6702300E538EF /* TQCategoryDemo_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQCategoryDemo_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02A55E11AD6702300E538EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E02A55E21AD6702300E538EF /* TQCategoryDemo_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQCategoryDemo_OSXTests.m; sourceTree = "<group>"; };
-		E02A55F21AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOBluetoothSDPUUID+TQStringInit.h"; sourceTree = "<group>"; };
-		E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IOBluetoothSDPUUID+TQStringInit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +58,6 @@
 		E02A55C01AD6702300E538EF = {
 			isa = PBXGroup;
 			children = (
-				E02A55F41AD673DE00E538EF /* TQCategory */,
 				E02A55CB1AD6702300E538EF /* TQCategoryDemo_OSX */,
 				E02A55DF1AD6702300E538EF /* TQCategoryDemo_OSXTests */,
 				E02A55CA1AD6702300E538EF /* Products */,
@@ -114,16 +109,6 @@
 				E02A55E11AD6702300E538EF /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E02A55F41AD673DE00E538EF /* TQCategory */ = {
-			isa = PBXGroup;
-			children = (
-				E02A55F21AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.h */,
-				E02A55F31AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m */,
-			);
-			name = TQCategory;
-			path = ../TQCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02A55F51AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */,
 				E02A55D21AD6702300E538EF /* main.m in Sources */,
 				E02A55D01AD6702300E538EF /* AppDelegate.m in Sources */,
 			);
@@ -236,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E02A55E31AD6702300E538EF /* TQCategoryDemo_OSXTests.m in Sources */,
-				E02A55F61AD673DE00E538EF /* IOBluetoothSDPUUID+TQStringInit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +398,7 @@
 				E02A55E81AD6702300E538EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E02A55E91AD6702300E538EF /* Build configuration list for PBXNativeTarget "TQCategoryDemo_OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +407,7 @@
 				E02A55EB1AD6702300E538EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

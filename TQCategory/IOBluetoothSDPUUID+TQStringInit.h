@@ -11,7 +11,7 @@
 @interface IOBluetoothSDPUUID (TQStringInit)
 
 /*
- * create uuid with string like "58724AF1-54FA-9D9E-E9F0-5FE143DBD517"
+ * create IOBluetoothSDPUUID with string like "58724AF1-54FA-9D9E-E9F0-5FE143DBD517"
  */
 
 + (instancetype)uuidWithString:(NSString *)string;
